@@ -2,8 +2,6 @@
 // compile with: /D_UNICODE /DUNICODE /DWIN32 /D_WINDOWS /c
 
 #include <windows.h>
-#include <cstdlib>
-#include <cstring>
 #include <tchar.h>
 
 // Global variables
@@ -12,7 +10,7 @@
 static TCHAR szWindowClass[] = _T("DesktopApp");
 
 // The string that appears in the application's title bar.
-static TCHAR szTitle[] = _T("Windows Desktop Guided Tour Application");
+static TCHAR szTitle[] = _T("Kakish.mp5");
 
 // Stored instance handle for use in Win32 API calls such as FindResource
 HINSTANCE hInst;
@@ -117,7 +115,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
 PAINTSTRUCT ps;
 HDC hdc;
-TCHAR greeting[] = _T("Hello, Windows desktop!");
+TCHAR greeting[] = _T("Ebal mamy!");
 
 switch (message)
 {
